@@ -6,7 +6,7 @@ document.querySelectorAll('[data-platform]').forEach(button => button.addEventLi
   const platform = button.dataset.platform;
   if (STORE_URLS[platform]) { window.location.assign(STORE_URLS[platform]); return; }
   document.querySelector('#dialog-title').textContent = `Arie for ${platform === 'ios' ? 'iOS' : 'Android'}`;
-  document.querySelector('#dialog-description').textContent = 'Arie is on its way. The download will be available here when the app launches.';
+  document.querySelector('#dialog-description').textContent = 'The download link will be available when Arie launches.';
   dialog.showModal();
 }));
 document.querySelectorAll('.dialog-close,.dialog-done').forEach(button => button.addEventListener('click', () => dialog.close()));
@@ -30,9 +30,9 @@ let demoTimers=[];
 document.querySelector('#replay').addEventListener('click',()=>{
   demoTimers.forEach(clearTimeout); demoTimers=[];
   const items=[...document.querySelectorAll('#demo-results>span')];items.forEach(i=>i.classList.add('pending'));
-  document.querySelector('#demo-status').textContent='Taking care of it…';
+  document.querySelector('#demo-status').textContent='Running example…';
   window.dispatchEvent(new CustomEvent('arie-working',{detail:true}));
   items.forEach((item,index)=>demoTimers.push(setTimeout(()=>item.classList.remove('pending'),650+index*750)));
-  demoTimers.push(setTimeout(()=>{document.querySelector('#demo-status').textContent='Taken care of.';window.dispatchEvent(new CustomEvent('arie-working',{detail:false}));},2600));
+  demoTimers.push(setTimeout(()=>{document.querySelector('#demo-status').textContent='Example complete';window.dispatchEvent(new CustomEvent('arie-working',{detail:false}));},2600));
 });
 document.querySelector('#year').textContent=new Date().getFullYear();
