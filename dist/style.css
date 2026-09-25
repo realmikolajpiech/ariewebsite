@@ -98,39 +98,3 @@ h2 span{color:#92a3bf}
 .steps h3{font-size:18px;font-weight:500;letter-spacing:-.3px;margin-bottom:10px}
 .steps p{font-size:13px;line-height:1.85;color:#94a5bf;margin:0;max-width:370px}
 .skills{display:grid;grid-template-columns:1fr 1fr;gap:110px;align-items:center}
-.skill-art{padding:15px 12px 15px 0;position:relative}
-.skill-art:before{content:'';position:absolute;inset:2px 30px 30px 14px;border:1px solid #253247;border-radius:20px;transform:rotate(-4deg);background:#0d1522}
-.skill-card{position:relative;border:1px solid #35435b;border-radius:20px;background:linear-gradient(125deg,#192334,#111a29);padding:27px;box-shadow:0 15px 45px #03081038}
-.skill-card-header{display:flex;align-items:center;gap:8px;color:#9aadc9;font-size:10px}
-.saved-by-you{margin-left:auto;font-size:9px;color:#90a9cd}
-.skill-card h3{font-size:27px;line-height:1.4;font-weight:500;letter-spacing:-1px;margin:29px 0 23px}
-.skill-actions{list-style:none;padding:0;margin:0}
-.skill-actions li{padding:14px 0;border-top:1px solid #2b384c;font-size:13px;display:flex;align-items:center;gap:14px;color:#c4d1e5}
-.skill-actions li>span{font-size:9px;color:#7f97bd}
-.skill-footer{font-size:10px;color:#8fa5c6;display:flex;align-items:center;gap:8px;margin-top:22px;line-height:1.6}
-.skill-line{height:1px;width:18px;background:#7fa1d8;flex-shrink:0}
-.skills-copy>p:not(.eyebrow){font-size:15px;line-height:1.85;color:#9bacc5;max-width:360px;margin:24px 0}
-.text-link{font-size:12px;display:inline-flex;align-items:center;gap:25px;min-height:40px;color:#c3d6f7;transition:gap .2s}
-.text-link:hover{gap:31px;color:#fff}
-.final-cta{display:flex;justify-content:space-between;align-items:center;gap:40px;padding-block:80px 90px}
-.final-cta h2{font-size:38px}.final-cta .downloads{margin:0}.final-cta .eyebrow{margin-bottom:14px}
-.footer{border-top:1px solid var(--line);padding-block:31px;display:flex;align-items:center;justify-content:space-between;font-size:11px;color:#72839e}
-.footer .logo{font-size:29px;color:#b5c2d8}.footer .logo-period{margin-left:-11px}
-.skip{position:fixed;top:-80px;left:15px;background:#fff;color:#101827;padding:12px;z-index:10;border-radius:6px}
-.skip:focus{top:10px}
-dialog{background:#121b2a;border:1px solid #3c4c66;border-radius:24px;color:var(--text);max-width:460px;width:calc(100% - 40px);padding:38px;box-shadow:0 30px 100px #03060c}
-dialog::backdrop{background:#03060dbb;backdrop-filter:blur(8px)}
-dialog>.tiny-orbit{width:36px;height:36px;margin-bottom:25px}
-dialog h2{font-size:30px;margin:17px 0}dialog>p{font-size:14px;color:#a3b1c8;line-height:1.7}
-.dialog-close{position:absolute;right:14px;top:10px;background:none;border:0;color:#a6b5cf;font-size:27px;width:44px;height:44px}
-.dialog-done{width:100%;min-height:44px;padding:12px;margin-top:23px;background:#e9f0ff;color:#101622;border:0;border-radius:10px}
-.hero-copy,.hero-visual{animation:arrive .7s both}.hero-visual{animation-delay:.1s}
-@keyframes arrive{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
-@media(min-width:1500px){.hero{gap:110px;padding-top:60px;padding-bottom:125px}}
-@media(max-width:1100px){.wrap{width:calc(100% - 72px)}.hero{gap:40px;grid-template-columns:1.15fr 1fr}h1{font-size:61px;letter-spacing:-3.3px}.store-button{min-width:161px;padding:13px}.store-arrow{display:none}.hero-description{font-size:16px}.how,.skills{gap:65px}.final-cta h2{font-size:33px}.final-cta{gap:30px}.final-cta .store-button{min-width:147px}}
-@media(max-width:850px){.wrap{width:calc(100% - 48px)}.hero{gap:28px}h1{font-size:51px;letter-spacing:-2.8px}.phone{width:300px;height:630px;padding-inline:15px}.phone-conversation{padding-inline:3px}.request-bubble{font-size:12px}.store-button{min-width:140px;padding:12px;gap:9px}.store-button>span:not(.store-arrow){font-size:16px}.store-button svg{width:22px}.downloads{gap:9px}.eyebrow{font-size:9px;letter-spacing:1px}.hero-description{font-size:15px}.scenario-tabs button>span:nth-child(2){font-size:12px}.examples{margin-top:34px}.hero{padding-bottom:80px}.how,.skills{gap:40px}.section{padding-block:80px}.skill-card{padding:22px}.skill-card h3{font-size:23px}.saved-by-you{font-size:8px}.final-cta{align-items:flex-start;flex-direction:column}.final-cta .store-button{min-width:165px}.section-intro h2{font-size:34px}}
-@media(max-width:680px){.wrap{width:calc(100% - 40px)}.header{height:85px}.header nav{display:none}.logo{font-size:31px}.brand-orbit{width:21px;height:21px}.nav-download{font-size:12px;gap:12px}.hero{grid-template-columns:1fr;gap:45px;padding-top:28px;padding-bottom:65px}.hero-copy{padding:0}.eyebrow{font-size:9px;margin-bottom:22px}h1{font-size:clamp(51px,9.8vw,68px);line-height:1.09;letter-spacing:-3px;max-width:540px;margin-bottom:22px}.hero-description{font-size:16px;max-width:450px;line-height:1.75}.downloads{margin-top:26px;gap:11px}.store-button{min-width:163px;padding:13px 14px;gap:12px}.store-button>span:not(.store-arrow){font-size:17px}.store-button svg{width:24px}.examples{margin-top:36px;max-width:100%}.scenario-tabs button>span:nth-child(2){font-size:14px}.scenario-tabs button{padding-block:15px}.hero-visual{padding-top:5px}.phone{width:320px;height:638px;padding-inline:18px}.request-bubble{font-size:13px}.preview-controls{width:320px}.preview-caption{font-size:9px}.section{padding-block:64px}.how,.skills{grid-template-columns:1fr;gap:38px}.section-intro h2,h2{font-size:35px;letter-spacing:-1.5px}.steps li{gap:22px;padding-block:23px}.steps p{max-width:100%;font-size:14px;line-height:1.75}.steps h3{font-size:19px}.skills-copy{grid-row:1}.skills-copy>p:not(.eyebrow){max-width:100%;font-size:15px;margin:20px 0 12px}.skill-art{width:100%;max-width:470px;margin:auto}.skill-card{padding:25px}.skill-card h3{font-size:26px}.skill-actions li{font-size:13px}.skill-card-header{font-size:10px}.saved-by-you{font-size:9px}.final-cta{gap:27px}.final-cta h2{font-size:35px}.final-cta .store-button{min-width:163px}.footer{padding-block:26px}}
-@media(max-width:380px){.wrap{width:calc(100% - 36px)}h1{font-size:46px;letter-spacing:-2.8px}.hero-description{font-size:15px}.downloads{width:100%;gap:9px}.store-button,.final-cta .store-button{min-width:0;flex:1;padding:12px 10px;gap:9px}.store-button>span:not(.store-arrow){font-size:16px}.store-button svg{width:21px}.phone{width:286px;height:624px;padding-inline:15px}.orb-stage{height:139px}.orb-stage canvas{width:149px;height:149px}.request-bubble{font-size:12px;padding:12px;min-height:88px}.result{padding:13px}.preview-controls{width:286px}.skill-card{padding:20px}.skill-card h3{font-size:23px}.skill-card-header{font-size:9px}.saved-by-you{font-size:8px}.skill-actions li{font-size:12px}.final-cta>div{width:100%}.section-intro h2,h2,.final-cta h2{font-size:32px}}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
-@media(max-width:680px){h1{font-size:clamp(41px,10.4vw,68px);letter-spacing:-2.3px}}
-@media(max-width:380px){h1{font-size:38px;letter-spacing:-2px}.phone{height:636px}}
